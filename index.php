@@ -44,8 +44,8 @@
 							<a class="header-nav-link header-active" href="index.html">Home</a>
 						</li>
 						<li class="header-nav-list"><a class="header-nav-link"
-								href="rooms-and-suites.html">Rooms and Suites</a></li>
-						<li class="header-nav-list"><a class="header-nav-link" href="facilities.html">Facilities</a></li>
+								href="rooms-and-suites.html">About Us</a></li>
+						<li class="header-nav-list"><a class="header-nav-link" href="facilities.html">Gallery</a></li>
 						<li class="header-nav-list"><a class="header-nav-link" href="contact-page.html">Contact Us</a></li>
 						<li class="header-nav-list"><a class="header-btn header-btn-custom" href="https://timbu.com/search?query=hotel">BOOK NOW</a></li>
 					</ul>
@@ -63,25 +63,27 @@
 
 	<div class="jumbotron-container">
 		<div class="jumbotron-left">
-			<h2 class="jumbotron-header">Discover the perfect balance <br> of hospitality, luxury and <br>comfort.</h2>
-			<p>We are focused on providing clients with the highest level<br>
+			<h2 class="jumbotron-header">Marianne Family Center <br>Where Dreams Become Unforgettable Memories!</h2>
+			<p>Let's make your special day more special with class and style<br>
 					of comfort and excellent affordable rates</p>
 					<a href="https://timbu.com/search?query=hotel" class="btn btn-fill btn-large">Book Now</a>
 		</div>
 		<div class="jumbotron-right">
 			<form action="" class="jumbotron-form">
 				<!-- Put the form here -->
-					<h3>Scared you can't afford it?</h3><br>
-					<p>Don't worry, our hotel offers the best<br> affordable rates you can ever find.</p>
-					<label class="hide" for="arrival">arrival date</label>
-					<input type="text" id="arrival" name="arrival_date" placeholder="Arrival Date" onfocus="(this.type='date')" ><br>
-					<label class="hide" for="departure">departure date</label>
-					<input type="text"  id="departure" name="departure_date" placeholder="Departure Date" onfocus="(this.type='date')" ><br>
-					<label class="hide" for="guests">how many guests</label>
-					<input type="text" id="guests" name="guests" placeholder="Guests"><br>
-					<label class="hide" for="children">children</label>
-					<input type="text" id="children" name="children" placeholder="Children"><br>
-					<button type="button" class="rates">CHECK RATES</button>
+					<h3>MAKE A RESERVATION NOW!</h3><br>
+					<p>*Kindly fill-in the required fields to reserve.</p>
+					<label class="hide" for="arrival">check_in date</label>
+					<input type="text" id="arrival" name="arrival_date" placeholder="Check - In" onfocus="(this.type='date')" ><br>
+					<label class="hide" for="departure">check_out date</label>
+					<input type="text"  id="departure" name="departure_date" placeholder="Check - Out" onfocus="(this.type='date')" ><br>
+					<label class="hide" for="room_type">room type</label>
+					<input type="text" id="room_type" name="room_type" placeholder="Room Type to avail"><br>
+					<label class="hide" for="guest">guest</label>
+					<input type="text" id="guest" name="guest" placeholder="Number of Guest"><br>
+					<label class="hide" for="price">price</label>
+					<input type="text" id="price" name="price" placeholder="Room Price per 24hrs.	"><br>
+					<button type="button" class="rates">CHECK AVAILABILITY</button>
 			</form>
 		</div>
 	</div>
