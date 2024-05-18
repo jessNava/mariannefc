@@ -100,7 +100,7 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Total Members
+                                Total Bookings
                             </div>
                             <div class="h1 ml-1 font-weight-bold text-gray-800">
                                 <?php echo $totalMembers; ?>
@@ -119,7 +119,7 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Paid Members
+                                Upcoming Check-ins
                             </div>
                             <div class="h1 ml-1 font-weight-bold text-gray-800">
                                 <?php echo $totalPaidMembers; ?>
@@ -138,7 +138,7 @@
                     <div class="row no-gutters align-items-center">
                         <div class="col mr-2">
                             <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                Total Unpaid Members
+                                Upcoming Check-outs
                             </div>
                             <div class="h1 ml-1 font-weight-bold text-gray-800">
                                 <?php echo $totalUnpaidMembers; ?>

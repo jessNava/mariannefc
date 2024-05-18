@@ -67,7 +67,7 @@
 <div class="container login-container">
     <div class="login-form">
         <div class="card-header">
-            <h3 class="brand-logo">BODY<span>FIT</span></h3>
+            <h3 style="color:darkgoldenrod;" class="brand-logo">MARIANNE<span>FAMILY CENTER</span></h3>
         </div>
         <div class="card-body">
             <form action="adminlogin.php" method="POST">
@@ -79,7 +79,7 @@
                     <label for="password">Password</label>
                     <input type="password" class="form-control" id="password" name="password" required>
                 </div>
-                <button type="submit" class="btn btn-login btn-block">Login</button>
+                <button style="background-color:darkgoldenrod;" type="submit" class="btn btn-login btn-block">Login</button>
             </form>
         </div>
         <div class="card-footer text-center">
