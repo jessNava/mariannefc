@@ -1,0 +1,66 @@
+body {
+    background-color:#eeeeee;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Fixes the background when scrolling */
+    font-family: 'Nunito', sans-serif; /* Use a suitable font-family for your text */
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+  }
+  .compName{
+      color: #ff3c00;
+  }
+  h3{
+      color: aliceblue;
+  }
+  .realDate{
+      color: aliceblue;
+  }
+  .realTime{
+      color: aliceblue;
+  }
+  .userInputText {
+    width: 80%;
+    padding: 8px; /* Adjust padding for a smaller size */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px; /* Adjust font size for a smaller size */
+    transition: border-color 0.3s ease-in-out;
+    box-sizing: border-box; /* Include padding and border in the total width/height */
+  }
+  .custom-container {
+    background-color: rgba(0, 0, 0, 0.5); /* White background with 0.8 opacity */
+    border: 1px solid #dc3545; /* Red border color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding around the container */
+    margin-top: 20px; /* Adjust as needed */
+  }
+  .buttons {
+    background-color: #09a121 !important; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Adjust padding for a smaller size */
+    font-size: 14px; /* Adjust font size for a smaller size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+  }
+.buttons:hover {
+  background-color: whitesmoke !important; /* Hover background color */
+  color: black !important; /* Hover text color */
+}.buttons2 {
+    background-color: #ff3c00 !important; /* Background color */
+    color: white; /* Text color */
+    padding: 10px 15px; /* Adjust padding for a smaller size */
+    font-size: 14px; /* Adjust font size for a smaller size */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out, color 0.3s ease-in-out;
+  }
+.buttons2:hover {
+  background-color: whitesmoke !important; /* Hover background color */
+  color: black !important; /* Hover text color */
+}
